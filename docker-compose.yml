@@ -1,0 +1,7 @@
+services:
+  hamster-clicker:
+    build: ./
+    env_file: .env
+    environment:
+      - HAMSTER_AUTH_TOKEN=${HAMSTER_AUTH_TOKEN}
+    
